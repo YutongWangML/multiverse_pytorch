@@ -15,5 +15,5 @@ pip install .
 ### Method 2: pip install from github
 
 ```
-pip install git+https://github.com/YutongWangUMich/UCI_classification.git
+pip install git+https://github.com/YutongWangUMich/multiverse_pytorch.git
 ```
