@@ -17,3 +17,8 @@ pip install .
 ```
 pip install git+https://github.com/YutongWangUMich/multiverse_pytorch.git
 ```
+
+
+## Demo
+
+Here is a demo in [Google Colab](https://colab.research.google.com/drive/1HCWGFeJ-D01ZYA6W6vNPDY82gmV4RnF1)
