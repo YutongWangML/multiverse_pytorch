@@ -1,1 +1,1 @@
-from . import perm_losses, regularizers
+from . import perm_losses, regularizers, utilities
