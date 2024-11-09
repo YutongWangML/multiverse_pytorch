@@ -34,3 +34,8 @@ def sum_hinge(discr, labels):
     assert discr.dtype == torch.float32
     rmarg = fmlc_left(discr, labels)
     return torch.sum(torch.relu(1-rmarg), dim=-1)
+
+def max_hinge(discr, labels):
+    assert discr.dtype == torch.float32
+    rmarg = fmlc_left(discr, labels)
+    return torch.max(torch.relu(1-rmarg), dim=-1)[0]
